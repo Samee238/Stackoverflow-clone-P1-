@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark text color */
+}
+
+h1, h2, h3 {
+  color: #2c3e50; /* Dark blue color for headings */
+}
+
+/* Header Styles */
+header {
+  background-color: #f8f9fa; /* Light background for header */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+nav ul li {
+  display: inline; /* Horizontal list */
+  margin: 0 15px; /* Spacing between items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Bootstrap primary color */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+  margin: 20px auto; /* Center the section */
+  max-width: 800px; /* Max width for content */
+  background-color: #fff; /* White background for sections */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+section h2 {
+  border-bottom: 2px solid #007bff; /* Blue underline for section titles */
+  padding-bottom: 10px; /* Spacing below the title */
+}
+
+/* Questions List Styles */
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+ul li {
+  margin: 10px 0; /* Spacing between list items */
+}
+
+ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Link color */
+  font-weight: bold; /* Bold text for links */
+}
+
+ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Blog Section Styles */
+article {
+  margin-top: 20px; /* Spacing above articles */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f8f9fa; /* Light background for footer */
+  text-align: center; /* Center text */
+  padding: 10px; /* Padding for footer */
+  position: relative; /* Positioning */
+  bottom: 0; /* Align to bottom */
+  width: 100%; /* Full width */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Shadow for footer */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  nav ul li {
+    display: block; /* Stack links vertically on small screens */
+    margin: 10px 0; /* Spacing between links */
+  }
+}
